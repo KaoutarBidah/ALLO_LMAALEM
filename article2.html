@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+		<script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/cufon-replace.js" type="text/javascript"></script>
+		<script src="js/NewsGoth_BT_400.font.js" type="text/javascript"></script>
+		<script src="js/FF-cash.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/jquery.equalheights.js" type="text/javascript"></script>
+        <script src="js/easyTooltip.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+         <link href="carousel.css" rel="stylesheet">
+	<style>
+        #articletitle{font-family:cursive;/*color: rgb(20, 84, 187)*/;font-weight: 100;font-variant: small-caps;margin-top: 6px;text-decoration: underline;}
+        h5{font-family:cursive;color: rgb(20, 84, 187);font-style: italic;font-weight:600;}
+        p{font-size: 18px;font-family: Arial, Helvetica, sans-serif;font-style: oblique;text-align: justify;}
+        figure{border: 1px #cccccc solid;padding: 4px;box-sizing: content-box;border-image: 5px;width:fit-content;height: fit-content;margin-bottom: 20px;}
+        figcaption{text-align: center;text-decoration: darkred;border: dimgray;font-style: italic;font-size: smaller;}
+        .center{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+        .align{display: flex;justify-content: left;}
+        .columnleft{margin-right: 19px;align-self: center;}
+        .columnright{margin-left:10px;align-self: center;}
+		h2{font-family: cursive;
+		letter-spacing: -1px;}
+    </style>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	</head>
+	<body id="page3">
+		<div class="extra">
+			<div class="main">
+<!--==============================header=================================-->
+<style>
+  .navstyle{font-size: 16px;}
+  .navbar-brand{
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 28px;
+  }
+  .navbar-dark .navbar-nav .navbar-link{
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  .navbar-dark .navbar-nav .navbar-item{
+      margin: 0 15px;
+  } 
+</style>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:150%;margin-left: -250px;">
+  <div class="container">
+   <a class="navbar-brand" style="font-family: cursive;" href="home.html"><img src="images/img.jpg" style="border-radius: 50%;" width="65" height="65" > ALLO L'MAALEM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--col-auto start-->
+    <div class="col-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active navstyle" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active navstyle" aria-current="page" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active navstyle" aria-current="page" href="forumtest.html">Astuces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active navstyle" aria-current="page" href="contact.html">A propos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            S'inscrire
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            <li><a class="dropdown-item" href="#">User</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" href="#">Maalem</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            S'Authentifier
+          </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Admin</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">User</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">Maalem</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+     <!--col-auto end-->
+    </div>
+  </nav>
+<!--==============================content================================-->
+				<section id="content">
+					<div class="wrapper">
+						<article class="col-1">
+							<div class="indent-left">
+                                <h2 id=articletitle>astuces de bricolage à connaître :</h2>
+                                    <p> Même si vous adorez bricoler chez vous, il y a certainement certaines choses qui vous échappent, comme des vis quand vous percez ou une méthode sûre pour obtenir la bonne dimension d’un trou. Nous avons trouvé pour vous 7 astuces de bricolage que vous devriez connaître absolument pour vous faciliter la vie.
+                                    </p>
+								<h5>1.De l’eau pour les pinceaux</h5>
+                                <div class="align"><p class="columnleft" >Certains types de pinceaux perdent leurs poils durant leur utilisation. Pour empêcher cette perte, trempez-les dans l’eau tiède pendant environ 24h. <br>Dès que votre pinceau est sec, vous pouvez faire en sorte qu'il reste « en forme » pour le prochain usage en attachant les poils avec un élastique à l'abri de toute humidité.</p>
+                                    <figure ><img  src="images/pinceau.jpg" height="200px" width="box-sizing" alt="pinceau dans l'eau">
+                                     <figcaption> pinceau tremper dans l'eau</figcaption></figure></div>
+								 
+								<h5>2.Des clous et vis magnétiques </h5>
+                                <div class="align"><figure ><img  src="images/marteau.png" height="200px" width="box-sizing" alt="marteau">
+                                    <figcaption>aimant coller à la base d'un marteau</figcaption></figure><p class="columnright" >Il existe aujourd’hui des tournevis et autres outils magnétiques mais si les vôtres ne le sont pas, vous pouvez coller un aimant à la base du marteau pour y coller vos clous. Vous ne les perdrez plus. <br>Vous pouvez aussi aimanter la tête d'un tournevis en la frottant au pôle d'un aimant, à plusieurs reprises dans la même direction. Pour supprimer l'aimantation, répétez l'opération, mais dans le sens inverse.</p>
+                                    </div>
+                                <h5>3.Un adhésif sur la mèche de la perceuse</h5>
+                                <div class="align"><p class="columnleft" >Vous connaissez le diamètre de votre cheville mais ne savez pas jusqu’où vous pouvez enfoncer la mèche de la perceuse ? Délimitez cette longueur en posant un morceau de ruban adhésif sur la mèche à l’endroit où elle doit s’arrêter pour avoir un trou parfait. <br> Pensez aussi à Percer par étapes de 10 à 20 secondes au maximum, et trempez le foret dans l’eau à chaque pause pour eviter la surchauffe si nécessaire.
+                                </p>
+                                    <figure ><img  src="images/adhesif.png" height="220px" width="box-sizing" alt="adhésif coller sur une pérceuse">
+                                        <figcaption> adhésif coller sur une pérceuse</figcaption></figure></div>
+                                <h5>4.Un carton pour peindre à la bombe</h5>
+                                <div class="align"><figure ><img  src="images/bombe.png" height="230px" width="box-sizing" alt="objet à peindre dans un carton">
+                                    <figcaption> objet peint à la bombe</figcaption></figure>
+                                    <p class="columnright" >Emparez-vous d’un carton d’emballage, fixez l’objet à peindre à la bombe à une ficelle rattachée à un crayon. Percez un trou sur le haut du carton, suspendez-y votre objet à peindre et vaporisez-le. Il va tourner sur lui-même et sera peint de façon uniforme sans faire d’éclaboussures. <br> La bombe de peinture est très pratique pour peindre un meuble ou n'importe quel objet de petite ou moyenne surface.
+                                    </p></div>
+                                <h5>5. De la colle pour les trous élargis</h5>
+                                <div class="align"><p class="columnleft" >Si vous avez percé un trou trop large pour votre vis, mettez un soupçon de colle universelle dans le trou avant d’y remettre la vis. La substance va combler l’orifice et caler la vis à l’intérieur.Donc si le diamètre des trous ne correspond pas aux dimensions des boulons, versez-y un peu de colle avant de placer les vis.</p>
+                                    <figure ><img  src="images/trou.png" height="200px" width="box-sizing" alt="perceuse">
+                                        <figcaption> perceuse qui cloue des vis</figcaption></figure></div>
+                                     
+                                <h5>6. De l’huile de cuisson pour les portes qui grincent </h5>
+                                <div class="align"><figure ><img  src="images/gond.png" height="200px" width="box-sizing" alt="gond d'une porte">
+                                    <figcaption>gond d'une porte</figcaption></figure><p class="columnright" >Inutile d’investir dans de l’huile de graissage hors de prix si l’une de vos portes se met à grincer horriblement. Trempez simplement un coton-tige dans l’huile de cuisson de votre choix, passez le tout sur les gonds pour réduire votre porte au silence.</p>
+                                        </div>
+                                <h5>7.Du blanc d’œuf pour un crochet à ventouse</h5>
+                                <div class="align"><p class="columnleft" >Les petites ventouses qui servent de crochets dans la cuisine ou surtout dans la salle de bains ont tendance à se décrocher. Pour remédier à cela, nettoyez bien la ventouse et badigeonnez-la de blanc d’œuf. Elle adhèrera mieux au carrelage, ainsi vous allongerez la durée de leur vie.
+                                </p>
+                                    <figure ><img  src="images/crochet.png" height="200px" width="box-sizing" alt="crochet à ventouse">
+                                        <figcaption> crochets à ventouse de cuisine</figcaption></figure></div>
+                                <p>Pour avoir plus d'astuces intéressante, consultez les autres articles du site, vous trouverez peut-être ce qui correspond parfaitement à ce que vous cherchez!</p>
+                                
+                                    
+                                    
+							</div>
+						</article>
+						<article class="col-2">
+							<h2 class="p1">Articles en details:</h2>
+							<ul id="listest" class="list-2">
+								<li><a href="article1.html">Comment respecter le temps de séchage de la peinture?</a></li>
+								<li><a href="article2.html">Astuces de bricolage à connaître</a></li>
+								<li><a href="article3.html">comment régler les gonds d’une porte d’entrée?</a></li>
+								<li><a href="article4.html">Comment accrocher un tableau au mur ? Pointe ou vis et cheville ?</a></li>
+								<li><a href="article5.html">Quel bois choisir pour ma création DIY ?</a></li>
+								<li><a href="article6.html">Construire une table basse en palette</a></li>
+								<li><a href="article7.html">mieux vendre sa maison en effectuant des travaux</a></li>
+								<li><a href="article8.html">Comment fabriquer et installer des étagères murales ?</a></li>
+								<li><a href="article9.html">Comment changer le robinet d’une baignoire ?</a></li>
+								<li><a href="article10.html">6 Types De Bois Et Leurs Avantages En Déco</a></li>
+								<li class="last-item"><a href="home.html">Contactez-nous pour plus d'article !</a></li>
+							</ul>
+						</article>
+					</div>
+					<div class="block"></div>
+				</section>
+			</div>
+		</div>
+    <br>
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-content">
+    
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>ALLO</span>L'MAALAM</h1><br>
+         <center>
+          <p style="margin-left: 45px;">
+            Choisissez votre MAALEM d'un coup de fil !
+          </p>
+          <br>
+          <div class="contact">
+            <span><i class="bi bi-telephone-fill">&nbsp; 06-66-66-66-66 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></span>
+            <span><i class="bi bi-envelope-fill"></i>&nbsp; allomaalam@gmail.com</span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/Allolmaalem.ma"><i class="bi bi-facebook"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-instagram"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-twitter"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        </center>  
+        <div class="footer-section links">
+          <h2 style="font-family: cursive;">Menu</h2>
+          <br>
+          <ul style="list-style: disc;">
+            <a href="home.html"><li>Home</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="contact.html"><li>A propos</li></a>
+            <a href="forumtest.html"><li>Astuces</li></a>
+            <a href="#"><li>Termes et Conditions</li></a>
+    
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2 style="font-family: cursive;">Nous contacter</h2>
+          <br>
+          <form action="home.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Ton addresse mail">
+            <textarea name="message" class="text-input contact-input" placeholder="Votre message"></textarea>
+            <button type="submit" class="btn btn-outline-warning">
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2020-2021 ALLO L'MAALEM Company, Inc.
+      </div>
+    </div>
+      <!--footer end-->
+    <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

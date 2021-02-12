@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+        </style>
+         <link href="carousel.css" rel="stylesheet">
+         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+         <!--fonts-->
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap" rel="stylesheet">    
+    </head>
+    <body>
+        <!--Navbar start-->
+        <style>
+                .navbar-brand{
+                    font-weight: bold;
+                    font-family: monospace;
+                    font-size: 28px;
+                }
+                .navbar-dark .navbar-nav .navbar-link{
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+                .navbar-dark .navbar-nav .navbar-item{
+                    margin: 0 15px;
+                } 
+        </style>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" style="font-family: cursive;" href="home.html"><img src="images/img.jpg" style="border-radius: 50%;" width="65" height="65" > ALLO L'MAALEM</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <!--col-auto start-->
+             <div class="col-auto">
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link active navstyle" aria-current="page" href="home.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link active navstyle" aria-current="page" href="services.html">Services</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link active navstyle" aria-current="page" href="forumtest.html">Astuces</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link active navstyle" aria-current="page" href="contact.html">A propos</a>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     S'inscrire
+                   </a>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     
+                     <li><a class="dropdown-item" href="signup.php">User</a></li>
+                     <div class="dropdown-divider"></div>
+                     <li><a class="dropdown-item" href="signup.php">Maalem</a></li>
+                   </ul>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     S'Authentifier
+                   </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <li><a class="dropdown-item" href="login.php">Admin</a></li>
+                       <div class="dropdown-divider"></div>
+                       <li><a class="dropdown-item" href="login.php">User</a></li>
+                       <div class="dropdown-divider"></div>
+                       <li><a class="dropdown-item" href="login.php">Maalem</a></li>
+                     </ul>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+              <!--col-auto end-->
+             </div>
+          </nav>
+      <marquee behavior="scroll" direction="left" width="100%">
+        <h4 class="TEXTMOBILE">ALLO L'MAALEM vous souhaitent la bienvenue... </h4>
+      </marquee>
+        <!--Navbar end-->
+
+        <!--Slider Start-->
+        <div class="container">
+          <div class="col-1"></div>
+          <div class="col">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/peinture3.jpg" class="d-block w-100"  height="500" alt="First slide">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="500">
+                    <img src="images/menuiserie4.jpg" class="d-block w-100"   height="500" alt="Seconde Slide">
+                  </div>
+                  <div class="carousel-item">
+                  <img src="images/plomb.jpg" class="d-block w-100"   height="500" alt="Third Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        </br>
+        <!--Slider end-->
+        <!--Jubotron Start-->
+        <div class="container">
+          <div class="col-1"></div>
+          <div class="col">  
+            <section style="background-color: rgb(205, 248, 248,0.5);">
+              <center>
+              <h4 class="bienvenue" style="color: rgb(37, 29, 110);"><b>Bienvenu !</b></h4>
+                  <pree style="color: black;" class="prev-indent-bot">Vous trouvez des diffucultés à trouver un menuisier meticuleux? Vous voulez refaire la peinture de votre maison mais vous n'arrivez pas à trouvez un bon peintre? Vous avez une fuite à la maison mais vous n'avez pas le temps à chercher un plombier?
+                  </br>Eh alors la solution est simple. Vous n'allez qu'à faire un double clique magique et voila, l'ouvrier que vous chercher viendras tout de suite vous régler le problème.
+                  </br>ALLO L'MAALEM est une Plateforme qui regroupe de nombreux profils d'ouvriers dans de nombreux domaines (pour plus de détaille visiter la page services) et les informations qui les concernent.</p>
+            </center>
+            </section>
+          </div>
+          <div class="col-1"></div> 
+        </div>   
+      </br>
+       
+        
+        <div class="container marketing">
+
+          <!-- Three columns of text below the carousel -->
+          
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" src="images/elect.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+              <div class="bcg">
+                <h4 class="titcol">Service electrique</h4>
+                <h6 style="color:chocolate;"><b>Encore un court circuit?</b></h6>
+                <p>Notre service éléctrique concerne l'installation, le dépannage et la rénovation.
+                  </br>Nous artisans électriciens sont en mesure de résoudre vos problèmes électriques de façon professionnelle 
+                  et dans les plus brefs délais. Qu’il soit question d’une réparation ou d’une maintenance, 
+                </br>nous effectuons le diagnostic nécessaire pour identifier les sources exactes des pannes. 
+                </br>Nous sommes à votre disposition pour remettre aux normes votre installation électrique, quel que soit son type.
+                <br/><center><a href="#">Plus de Details</a></center>
+                <br>
+                </p>
+              </div>  
+            </div>
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" src="images/robinet.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+              <div class="bcg">
+                <h4 class="titcol">Service plomberie</h4>
+                <h6 style="color:chocolate;"><b>Fuite d'eau ? C'est du gateau.</b></h6>
+                <p>Fuite d’eau ou de gaz, panne de chauffage, changement d’équipements sanitaires et débouchage de tuyaux sont des interventions délicates effectuées par notre équipe.
+                </br>Que ce soit pour un dépannage en urgence ou la mise sur pied d’une nouvelle installation, nous arrivons rapidement chez vous et effectuons tous les services ayant trait à la plomberie.
+                <br/><center><a href="#">Plus de Details</a></center>
+                </p>
+                </br>
+                </br>
+                </br>
+                <br>
+              </div>  
+            </div>
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" src="images/peint.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+              <div class="bcg"> 
+                <h4 class="titcol">Service Peinture</h4>
+                <h6 style="color:chocolate;"><b>Ne vous salissez pas les mains.</b></h6>
+                      <p>Envie de redonner du peps à votre intérieur avec de nouvelles couleurs ?
+                      </br> Ou agrandir et illuminer l'espace avec du blanc satiné ? Vous souhaitez réchauffer l'ambiance avec une peinture à effet tadelakt, à la chaux ?
+                    </br> Ou donner un style contemporain avec de la peinture effet béton ? Dès maintenant, gratuitement et un en clic, trouvez un peintre en bâtiment fiable et compétent,
+                  <br/><center><a href="#">Plus de Details</a></center></p>
+                </br>
+                </br>  
+                <br>
+              </div>  
+            </div>
+            
+          </div>
+      </br>
+    </br>
+  </div>
+  <br>
+  <br>
+  <br>
+				<!--Jubotron End-->
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-content">
+    
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>ALLO</span>L'MAALAM</h1><br>
+         <center>
+          <p>
+            Choisissez votre MAALEM d'un coup de fil !
+          </p>
+          <br>
+          <div class="contact">
+            <span><i class="bi bi-telephone-fill">&nbsp; 06-66-66-66-66 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></span>
+            <span><i class="bi bi-envelope-fill"></i>&nbsp; allomaalam@gmail.com</span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/Allolmaalem.ma"><i class="bi bi-facebook"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-instagram"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-twitter"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        </center>  
+        <div class="footer-section links">
+          <h2 style="font-family: cursive;">Menu</h2>
+          <br>
+          <ul>
+            <a href="home.html"><li>Home</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="contact.html"><li>A propos</li></a>
+            <a href="forumtest.html"><li>Astuces</li></a>
+            <a href="#"><li>Termes et Conditions</li></a>
+    
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2 style="font-family: cursive;">Nous contacter</h2>
+          <br>
+          <form action="home.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Ton addresse mail">
+            <textarea name="message" class="text-input contact-input" placeholder="Votre message"></textarea>
+            <button type="submit" class="btn btn-outline-warning">
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2020-2021 ALLO L'MAALEM Company, Inc.
+      </div>
+    </div>
+      <!--footer end-->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

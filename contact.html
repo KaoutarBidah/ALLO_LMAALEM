@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+        </style>
+         <link href="carousel.css" rel="stylesheet">
+         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+         <!--fonts-->
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap" rel="stylesheet">    
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" style="font-family: cursive;font-weight: bold;font-size:x-large;" href="home.html"><img src="images/img.jpg" style="border-radius: 50%;" width="65" height="65" > ALLO L'MAALEM</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <!--col-auto start-->
+         <div class="col-auto">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link active navstyle" aria-current="page" href="home.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active navstyle" aria-current="page" href="services.html">Services</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active navstyle" aria-current="page" href="forumtest.html">Astuces</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active navstyle" aria-current="page" href="contact.html">A propos</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 S'inscrire
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                 <li><a class="dropdown-item" href="#">User</a></li>
+                 <div class="dropdown-divider"></div>
+                 <li><a class="dropdown-item" href="#">Maalem</a></li>
+               </ul>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle navstyle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 S'Authentifier
+               </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Admin</a></li>
+                   <div class="dropdown-divider"></div>
+                   <li><a class="dropdown-item" href="#">User</a></li>
+                   <div class="dropdown-divider"></div>
+                   <li><a class="dropdown-item" href="#">Maalem</a></li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+          <!--col-auto end-->
+         </div>
+      </nav>
+  <marquee behavior="scroll" direction="left" width="100%">
+    <h4 class="TEXTMOBILE">ALLO L'MAALEM vous souhaitent la bienvenue... </h4>
+  </marquee>
+    <!--Navbar end-->
+
+    <!--body start-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white"><i class="bi bi-envelope-fill">&nbsp;Nous contacter.</i> 
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nom et Prénom</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Entrer votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Addresse mail</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrer votre email" required>
+                                <small id="emailHelp" class="form-text text-muted">votre addresse mail ne sera partagée avec personne.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="6" required></textarea>
+                            </div>
+                            <div class=" mx-auto ">
+                                    <button type="submit" class="btn btn-secondary  " style="position: relative; left: 1px;">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="card bg-light mb-3">
+                    <div class="card-header bg-success text-white text-uppercase"><i class="bi bi-chat-right-text">&nbsp;Cordonnées</i></div>
+                    <div class="card-body">
+                        <p><i class="bi bi-geo-alt-fill">&nbsp;Addresse:2 Avenue Allal Al Fassi, Madinat Al Irfane, Rabat, Institut</i></p>
+                        <p><i class="bi bi-envelope-fill">&nbsp;Adresses mails des membres de notre équipe:</i></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;ibrahimainhajar1@gmail.com</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;kawtarbidah2000@gmail.com</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;anassdah5@gmail.com</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;ferdaousazhari91@gmail.com</p>
+                        <p><i class="bi bi-phone-fill">&nbsp;Tel. +212 666-666-666</i></p>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--body end-->
+<br>
+<br>
+
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-content">
+    
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>ALLO</span>L'MAALAM</h1><br>
+         <center>
+          <p>
+            Choisissez votre MAALEM d'un coup de fil !
+          </p>
+          <br>
+          <div class="contact">
+            <span><i class="bi bi-telephone-fill">&nbsp; 06-66-66-66-66 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></span>
+            <span><i class="bi bi-envelope-fill"></i>&nbsp; allomaalam@gmail.com</span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/Allolmaalem.ma"><i class="bi bi-facebook"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-instagram"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-twitter"></i></a>&nbsp;
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        </center>  
+        <div class="footer-section links">
+          <h2 style="font-family: cursive;">Menu</h2>
+          <br>
+          <ul>
+            <a href="home.html"><li>Home</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="contact.html"><li>A propos</li></a>
+            <a href="forumtest.html"><li>Astuces</li></a>
+            <a href="#"><li>Termes et Conditions</li></a>
+    
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2 style="font-family: cursive;">Nous contacter</h2>
+          <br>
+          <form action="home.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Ton addresse mail">
+            <textarea name="message" class="text-input contact-input" placeholder="Votre message"></textarea>
+            <button type="submit" class="btn btn-outline-warning">
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2020-2021 ALLO L'MAALEM Company, Inc.
+      </div>
+    </div>
+    <!--footer end-->
+  
+          <script src="js/jquery.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+      </body>
+  </html>

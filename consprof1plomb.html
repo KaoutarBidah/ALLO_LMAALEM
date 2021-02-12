@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+	<link rel="stylesheet" type="text/css" href="css/listViewPortlet.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="http://www.allomaalem.com/assets/22cd08b9/rating/jquery.rating.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.allomaalem.com/assets/f2801c0c/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css"
+		href="http://www.allomaalem.com/assets/f2801c0c/css/bootstrap-responsive.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.allomaalem.com/assets/f2801c0c/css/yii.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.allomaalem.com/assets/db7f90f4/social.css" />
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/22cd08b9/jquery.js"></script>
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/22cd08b9/jquery.metadata.js"></script>
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/22cd08b9/jquery.rating.js"></script>
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/22cd08b9/jquery.yiiactiveform.js"></script>
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/22cd08b9/jquery.ba-bbq.js"></script>
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/f2801c0c/js/bootstrap.js"></script>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js?parsetags=explicit"></script>
+	<title>Allo m3alem - View Service</title>
+
+
+</head>
+
+<body>
+	<div class="container" id="page">
+		<div style="font-family : Arial, Helvetica, sans-serif;font-size : 17px;">
+		</div> </br>
+		<div class="row">
+			<div class="span9">
+				<div class="col">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="plomberie.html">Profiles</a></li>
+						</ol>
+				</div>
+
+				<h3> La fiche de Mohamed AIT LAHCEN </h3>
+				<div class="row">
+					<div class="span3">
+						<img src="images/profilee.jpg" class="thumbnail" alt=""><br />
+						<span id="note_17">
+							<input id="note_17_0" value="1" type="radio" name="note_17" />
+							<input id="note_17_1" value="2" type="radio" name="note_17" />
+							<input id="note_17_2" value="3" type="radio" name="note_17" />
+							<input id="note_17_3" value="4" type="radio" name="note_17" />
+							<input id="note_17_4" value="5" checked="checked" type="radio" name="note_17" />
+						</span> &nbsp;Pour un total de 9 note(s)
+						<br />
+						<div id="myModal" class="modal hide fade">
+							<div class="modal-header">
+								<a class="close" data-dismiss="modal">&times;</a>
+								<div id="warning" class="alert alert-block alert-warning fade in">
+									<p><strong>Important :</strong> Afin de Completer au mieux votre demande, veuillez
+										remplir ce formulaire </p>
+								</div>
+							</div>
+							<div class="modal-body">
+								<div class="form">
+									<form class="well form-horizontal" id="demande-formclient"
+										action="/index.php?r=service/view&amp;id=17" method="post">
+										<h4> Informations Client </h4>
+
+										<div class="control-group "><label class="control-label required"
+												for="Client_clicnom">Nom <span class="required">*</span></label>
+											<div class="controls"><input name="Client[clicnom]" id="Client_clicnom"
+													type="text" maxlength="45" /><span class="help-inline error"
+													id="Client_clicnom_em_" style="display: none"></span></div>
+										</div>
+										<div class="control-group "><label class="control-label required"
+												for="Client_clicprenom">Prenom <span class="required">*</span></label>
+											<div class="controls"><input size="45" maxlength="45"
+													name="Client[clicprenom]" id="Client_clicprenom" type="text" /><span
+													class="help-inline error" id="Client_clicprenom_em_"
+													style="display: none"></span></div>
+										</div>
+										<div class="control-group "><label class="control-label required"
+												for="Client_clictel">Téléphone <span class="required">*</span></label>
+											<div class="controls"><input size="45" maxlength="45" name="Client[clictel]"
+													id="Client_clictel" type="text" /><span class="help-inline error"
+													id="Client_clictel_em_" style="display: none"></span></div>
+										</div>
+										<div class="control-group "><label class="control-label required"
+												for="Client_clicemail">Email <span class="required">*</span></label>
+											<div class="controls">
+												<div class="input-prepend"><span class="add-on">@</span><input
+														name="Client[clicemail]" id="Client_clicemail" type="text"
+														maxlength="45" /></div><span class="help-inline error"
+													id="Client_clicemail_em_" style="display: none"></span>
+											</div>
+										</div>
+										<div class="alert-info">
+											<div>
+												<img id="yw0" src="/index.php?r=demande/captcha&amp;v=6022dcd40d9fd"
+													alt="" />
+												<div class="control-group "><label class="control-label required"
+														for="Client_verifyCodeClient">Code Antispam <span
+															class="required">*</span></label>
+													<div class="controls"><input name="Client[verifyCodeClient]"
+															id="Client_verifyCodeClient" type="text" /><span
+															class="help-inline error" id="Client_verifyCodeClient_em_"
+															style="display: none"></span></div>
+												</div>
+											</div>
+											<p><strong>S'il vous plaît entrer les lettres telles qu'elles figurent dans
+													l'image ci-dessus.</strong> <br />les lettres ne sont pas sensibles
+												à la casse. </p>
+											<span class="help-inline error" id="Client_verifyCodeClient_em_"
+												style="display: none"></span>
+										</div>
+
+										</br>
+										<div style="float:right;margin-right:280px;">
+											<button class="btn btn-primary" type="submit"
+												name="yt0">Enregistrer</button>
+										</div>
+										</br>
+									</form>
+								</div><!-- form -->
+
+								<script>
+									$('.modal').css('width', '650px');
+
+									$('.modal-body').css('max-height', '750px');
+								</script>
+
+								</br>
+							</div>
+							<div class="modal-footer">
+								<a data-dismiss="modal" class="btn btn-primary btn" href="#">Annuler</a>
+							</div>
+						</div>
+						<div id="modal-link">
+							<a data-toggle="modal" srvrid="17" data-target="#myModal"
+								class="ziw btn-warning btn btn-primary">Demandez ce Maalem</a>
+						</div>
+						<br />
+						<br />
+						<div id="fb-root">
+							<div class="fb-comments" data-href="https://www.facebook.com/Allom3alem" data-width="270">
+							</div>
+						</div>
+					</div>
+					<div class="span6">
+						<div id="yw4" class="tabs-above">
+							<ul id="yw5" class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#yw4_tab_1">Offre</a></li>
+								<li><a data-toggle="tab" href="#yw4_tab_2">Informations</a></li>
+								<li><a data-toggle="tab" href="#yw4_tab_3">Evaluations</a></li>
+								<li><a data-toggle="tab" href="#yw4_tab_4">Réalisations</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="yw4_tab_1" class="tab-pane fade active in">
+									<div class="testimonial">
+										<p>Avec mon équipe nous passons par tous , nous vous proposons des services dans
+											différents domaine : plomberie des batiments, installation et maintenance de
+											tous type de travaux la plomberie ,faire toute réparation des installations
+											sanitaires (éviers baignoires douches…)
+											Tous ces services se sont avec un meilleur rapport délai qualité et prix
+											N’hésitez pas à me contacter via Allo_lmaalm.
+										</p>
+									</div>
+									<div class="arrow-down"></div>
+									<p class="testimonial-author">Mohamed AIT LAHCEN | <span>Service de Plomberie</span>
+									</p>
+								</div>
+								<div id="yw4_tab_2" class="tab-pane fade">
+									<table class="detail-view table table-striped table-condensed" id="yw1">
+										<tr class="odd">
+											<th>Nom complet</th>
+											<td>Mohamed AIT LAHCEN</td>
+										</tr>
+										<tr class="even">
+											<th>Age</th>
+											<td>46 ans</td>
+										</tr>
+										<tr class="odd">
+											<th>Inscription</th>
+											<td>2013-08-22 18:29:12</td>
+										</tr>
+										<tr class="even">
+											<th>Domaine</th>
+											<td>Electricite</td>
+										</tr>
+										<tr class="odd">
+											<th>Experience</th>
+											<td>23 ans</td>
+										</tr>
+										<tr class="even">
+											<th>Ville </th>
+											<td>Casablanca</td>
+										</tr>
+									</table>
+								</div>
+								<div id="yw4_tab_3" class="tab-pane fade">
+									<div id="yw2" class="list-view">
+										<div class="summary"></div>
+
+										<div class="evaluations">
+											<div class="row" id="tab-evaluations">
+												<div class="span2" id="label-evaluation">
+													<h4>Efficacité</h4>
+												</div>
+												<div class="span3" id="note-evaluation">
+													<span id="note_qualite_1">
+														<input id="note_qualite_1_0" value="1" type="radio"
+															name="note_qualite_1" />
+														<input id="note_qualite_1_1" value="2" type="radio"
+															name="note_qualite_1" />
+														<input id="note_qualite_1_2" value="3" type="radio"
+															name="note_qualite_1" />
+														<input id="note_qualite_1_3" value="4" type="radio"
+															name="note_qualite_1" />
+														<input id="note_qualite_1_4" value="5" checked="checked"
+															type="radio" name="note_qualite_1" />
+													</span>
+													<hr>
+													<div id="count-note-evaluation">
+														&nbsp;Pour un total de
+														1 note(s)
+													</div>
+												</div>
+											</div>
+
+											<div class="row" id="tab-evaluations">
+												<div class="span2" id="label-evaluation">
+													<h4>Prix</h4>
+												</div>
+												<div class="span3" id="note-evaluation">
+													<span id="note_qualite_2">
+														<input id="note_qualite_2_0" value="1" type="radio"
+															name="note_qualite_2" />
+														<input id="note_qualite_2_1" value="2" type="radio"
+															name="note_qualite_2" />
+														<input id="note_qualite_2_2" value="3" type="radio"
+															name="note_qualite_2" />
+														<input id="note_qualite_2_3" value="4" type="radio"
+															name="note_qualite_2" />
+														<input id="note_qualite_2_4" value="5" checked="checked"
+															type="radio" name="note_qualite_2" />
+													</span>
+													<hr>
+													<div id="count-note-evaluation">
+														&nbsp;Pour un total de
+														1 note(s)
+													</div>
+												</div>
+											</div>
+
+											<div class="row" id="tab-evaluations">
+												<div class="span2" id="label-evaluation">
+													<h4>Respect de délai</h4>
+												</div>
+												<div class="span3" id="note-evaluation">
+													<span id="note_qualite_3">
+														<input id="note_qualite_3_0" value="1" type="radio"
+															name="note_qualite_3" />
+														<input id="note_qualite_3_1" value="2" type="radio"
+															name="note_qualite_3" />
+														<input id="note_qualite_3_2" value="3" type="radio"
+															name="note_qualite_3" />
+														<input id="note_qualite_3_3" value="4" checked="checked"
+															type="radio" name="note_qualite_3" />
+														<input id="note_qualite_3_4" value="5" type="radio"
+															name="note_qualite_3" />
+													</span>
+													<hr>
+													<div id="count-note-evaluation">
+														&nbsp;Pour un total de
+														1 note(s)
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<div class="keys" style="display:none"
+											title="/index.php?r=service/view&amp;id=17">
+											<span>1</span><span>2</span><span>3</span></div>
+									</div>
+								</div>
+								<div id="yw4_tab_4" class="tab-pane fade">
+									<div id="mymod" class="modal hide fade">
+										<div id="myCarousel" class="carousel slide">
+											<div class="carousel-inner"></div><a class="carousel-control left"
+												href="#myCarousel" data-slide="prev">&lsaquo;</a><a
+												class="carousel-control right" href="#myCarousel"
+												data-slide="next">&rsaquo;</a>
+										</div>
+										<div id="fb">
+											<div class="fb-comments" data-href="https://www.facebook.com/Allom3alem"
+												data-width="270"></div>
+										</div>
+									</div>
+									<script>
+										var $myModal = $('#mymod').modal({ show: false });
+										var $myCarousel = $('#myCarousel').carousel({ 'interval': false });
+
+										$('.btn0').click(function () {
+											$myModal.modal('show');
+											$myCarousel.carousel($(this).data('slide-index'));
+										});
+									</script>
+								</div>
+							</div>
+						</div>
+						<div style="margin:0px"><img style="border: 0px" src="images/realisation.jpg" class="thumbnail"
+								alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="span2">
+			<div>
+
+				<div class="social clearfix">
+
+
+					<div class="plusone social-vertical">
+						<div id="plusone-div"></div>
+						<script type="text/javascript">
+							//<![CDATA[
+							gapi.plusone.render
+								(
+									'plusone-div',
+									{
+										"size": "medium",
+										"annotation": "bubble",
+									}
+								);
+	//]]>
+						</script>
+					</div>
+				</div>
+
+
+
+
+
+			</div>
+			<div id="fb-root">
+				<div class="fb-like" data-href="http://facebook.com/Allom3alem" data-width="220" data-show-faces="true"
+					data-send="true"></div>
+			</div>
+			<script>
+				(function (d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>
+	</div>
+
+	</div>
+	</div><!-- footer -->
+
+	<script type="text/javascript" src="http://www.allomaalem.com/assets/3bf3d72d/listview/jquery.yiilistview.js"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		jQuery(function ($) {
+			jQuery('#note_17 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#yw0').after("<a style=\"margin-left:10px;\" title=\"Actualisez l&#039;image\" id=\"yw0_button\" href=\"\/index.php?r=demande\/captcha&amp;refresh=1\"><img src=\"http:\/\/www.cisco.com\/en\/US\/i\/200001-300000\/270001-280000\/278001-279000\/278700.jpg\" alt=\"\" \/><\/a>");
+			jQuery(document).on('click', '#yw0_button, #yw0', function () {
+				jQuery.ajax({
+					url: "\/index.php?r=demande\/captcha&refresh=1",
+					dataType: 'json',
+					cache: false,
+					success: function (data) {
+						jQuery('#yw0').attr('src', data['url']);
+						jQuery('body').data('captcha.hash', [data['hash1'], data['hash2']]);
+					}
+				});
+				return false;
+			});
+
+			jQuery('#demande-formclient').yiiactiveform({
+				'validateOnChange': false, 'validateOnSubmit': true, 'attributes': [{
+					'id': 'Client_clicnom', 'inputID': 'Client_clicnom', 'errorID': 'Client_clicnom_em_', 'model': 'Client', 'name': 'Client\x5Bclicnom\x5D', 'enableAjaxValidation': false, 'inputContainer': 'div.control\x2Dgroup', 'clientValidation': function (value, messages, attribute) {
+
+						if (jQuery.trim(value) == '') {
+							messages.push("Merci de remplir le champs : Nom");
+						}
+
+
+						if (jQuery.trim(value) != '') {
+
+							if (value.length > 45) {
+								messages.push("Nom is too long (maximum is 45 characters).");
+							}
+
+						}
+
+					}
+				}, {
+					'id': 'Client_clicprenom', 'inputID': 'Client_clicprenom', 'errorID': 'Client_clicprenom_em_', 'model': 'Client', 'name': 'Client\x5Bclicprenom\x5D', 'enableAjaxValidation': false, 'inputContainer': 'div.control\x2Dgroup', 'clientValidation': function (value, messages, attribute) {
+
+						if (jQuery.trim(value) == '') {
+							messages.push("Merci de remplir le champs : Prenom");
+						}
+
+
+						if (jQuery.trim(value) != '') {
+
+							if (value.length > 45) {
+								messages.push("Prenom is too long (maximum is 45 characters).");
+							}
+
+						}
+
+					}
+				}, {
+					'id': 'Client_clictel', 'inputID': 'Client_clictel', 'errorID': 'Client_clictel_em_', 'model': 'Client', 'name': 'Client\x5Bclictel\x5D', 'enableAjaxValidation': false, 'inputContainer': 'div.control\x2Dgroup', 'clientValidation': function (value, messages, attribute) {
+
+						if (jQuery.trim(value) == '') {
+							messages.push("Merci de remplir le champs : T\u00e9l\u00e9phone");
+						}
+
+
+						if (jQuery.trim(value) != '') {
+
+							if (!value.match(/^\s*[+-]?\d+\s*$/)) {
+								messages.push("T\u00e9l\u00e9phone must be an integer.");
+							}
+
+						}
+
+
+						if (jQuery.trim(value) != '') {
+
+							if (value.length > 45) {
+								messages.push("T\u00e9l\u00e9phone is too long (maximum is 45 characters).");
+							}
+
+						}
+
+					}
+				}, {
+					'id': 'Client_clicemail', 'inputID': 'Client_clicemail', 'errorID': 'Client_clicemail_em_', 'model': 'Client', 'name': 'Client\x5Bclicemail\x5D', 'enableAjaxValidation': false, 'inputContainer': 'div.control\x2Dgroup', 'clientValidation': function (value, messages, attribute) {
+
+						if (jQuery.trim(value) == '') {
+							messages.push("Merci de remplir le champs : Email");
+						}
+
+
+
+						if (jQuery.trim(value) != '' && !value.match(/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/)) {
+							messages.push("Email is not a valid email address.");
+						}
+
+
+						if (jQuery.trim(value) != '') {
+
+							if (value.length > 45) {
+								messages.push("Email is too long (maximum is 45 characters).");
+							}
+
+						}
+
+					}
+				}, {
+					'id': 'Client_verifyCodeClient', 'inputID': 'Client_verifyCodeClient', 'errorID': 'Client_verifyCodeClient_em_', 'model': 'Client', 'name': 'Client\x5BverifyCodeClient\x5D', 'enableAjaxValidation': false, 'inputContainer': 'div.control\x2Dgroup', 'clientValidation': function (value, messages, attribute) {
+
+						if (jQuery.trim(value) == '') {
+							messages.push("Merci de remplir le champs : Code Antispam");
+						}
+
+
+						var hash = jQuery('body').data('captcha.hash');
+						if (hash == null)
+							hash = 759;
+						else
+							hash = hash[1];
+						for (var i = value.length - 1, h = 0; i >= 0; --i) h += value.toLowerCase().charCodeAt(i);
+						if (h != hash) {
+							messages.push("The verification code is incorrect.");
+						}
+
+					}
+				}], 'errorCss': 'error'
+			});
+			jQuery('#myModal').modal({ 'show': false });
+			jQuery('#yw2').yiiListView({ 'ajaxUpdate': ['yw2'], 'ajaxVar': 'ajax', 'pagerClass': 'pagination', 'loadingClass': 'list\x2Dview\x2Dloading', 'sorterClass': 'sorter', 'enableHistory': false });
+			jQuery('#note_qualite_1 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#note_qualite_2 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#note_qualite_3 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#myCarousel').carousel();
+			jQuery('#mymod').modal({ 'show': false });
+			jQuery('#yw4').tab('show');
+			jQuery('#note_74-1004350293 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#note_73-1048697948 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('#note_72-1429240705 > input').rating({ 'required': true, 'readOnly': true });
+			jQuery('body').tooltip({ 'selector': 'a\x5Brel\x3Dtooltip\x5D' });
+			jQuery('body').popover({ 'selector': 'a\x5Brel\x3Dpopover\x5D' });
+			jQuery('#yii_bootstrap_collapse_0').collapse({ 'parent': false, 'toggle': false });
+		});
+/*]]>*/
+	</script>
+</body>
+
+</html>

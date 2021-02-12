@@ -1,0 +1,22 @@
+.portlet {
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 20px;
+  }
+  
+  .portlet-title
+  {
+    padding: 10px;
+    color: #1D70B7;
+    text-decoration: none;
+    border-bottom: 3px solid #F08019;
+    background-color: #F5F5F5;
+  }
+  
+  .portlet-content
+  {
+      font-size:0.9em;
+      margin: 0 0 15px 0;
+      padding: 5px 8px;
+      /*background:#EFFDFF;*/
+  }
